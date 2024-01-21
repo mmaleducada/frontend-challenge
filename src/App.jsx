@@ -10,7 +10,7 @@ function App() {
     <div>
       <Header></Header>
       {/* <ItemProyect></ItemProyect> */}
-      {/* <ListProyects></ListProyects> */}
+      <ListProyects></ListProyects>
     </div>
   )
 }
