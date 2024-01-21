@@ -9,10 +9,10 @@ function App() {
   
   return (
     <div>
-      <Header></Header>
-      <Home></Home>
-      {/* <ItemProyect></ItemProyect> */}
-      <ListProyects></ListProyects>
+      {/* <Header></Header>
+      <Home></Home> */}
+      <ItemProyect></ItemProyect>
+      {/* <ListProyects></ListProyects> */}
     </div>
   )
 }
