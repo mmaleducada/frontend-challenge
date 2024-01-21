@@ -6,16 +6,18 @@ import ListProyects from './components/views/proyects/ListProyects';
 import MenuKebab from './components/views/proyects/MenuKebab'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.min.css';
+import CreateProyects from './components/views/proyects/CreateProyects';
 
 function App() {
   
   return (
     <div>
       <Header></Header>
-      <Home></Home>
-      <ItemProyect></ItemProyect>
+      {/* <Home></Home>
+      <ItemProyect></ItemProyect> */}
       {/* <ListProyects></ListProyects> */}
       {/* <MenuKebab></MenuKebab> */}
+      <CreateProyects></CreateProyects>
     </div>
   )
 }
