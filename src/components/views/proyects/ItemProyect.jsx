@@ -1,6 +1,7 @@
 import { Col, Container, Row } from "react-bootstrap";
 import Card from "react-bootstrap/Card";
 import Image from "react-bootstrap/Image";
+import MenuKebab from "./MenuKebab";
 
 const ItemProyect = () => {
   return (
@@ -16,6 +17,7 @@ const ItemProyect = () => {
             </Card.Body>
           </Col>
           <Col>
+          <MenuKebab></MenuKebab>
           </Col>
           <Row>
             <Col xs={4}>
