@@ -15,7 +15,8 @@ const ItemProyect = () => {
               </Card.Subtitle>
             </Card.Body>
           </Col>
-          <Col>Menu kebab</Col>
+          <Col>
+          </Col>
           <Row>
             <Col xs={4}>
               <Image src="holder.js/171x180" roundedCircle />
