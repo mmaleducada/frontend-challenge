@@ -1,17 +1,10 @@
-import Container from 'react-bootstrap/Container';
-import Navbar from 'react-bootstrap/Navbar';
+import ListGroup from "react-bootstrap/ListGroup";
 
 const Header = () => {
   return (
-    <>
-      <Navbar className="bg-body-tertiary">
-        <Container>
-          <Navbar.Brand href="#home">
-            LOGO
-          </Navbar.Brand>
-        </Container>
-      </Navbar>
-    </>
+    <ListGroup>
+      <ListGroup.Item>LOGO</ListGroup.Item>
+    </ListGroup>
   );
 };
 
