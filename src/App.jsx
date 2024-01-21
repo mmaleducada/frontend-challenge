@@ -7,6 +7,7 @@ import MenuKebab from './components/views/proyects/MenuKebab'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap-icons/font/bootstrap-icons.min.css';
 import CreateProyects from './components/views/proyects/CreateProyects';
+import UpdateProyects from './components/views/proyects/UpdateProyects';
 
 function App() {
   
@@ -17,7 +18,8 @@ function App() {
       <ItemProyect></ItemProyect> */}
       {/* <ListProyects></ListProyects> */}
       {/* <MenuKebab></MenuKebab> */}
-      <CreateProyects></CreateProyects>
+      {/* <CreateProyects></CreateProyects> */}
+      <UpdateProyects></UpdateProyects>
     </div>
   )
 }
