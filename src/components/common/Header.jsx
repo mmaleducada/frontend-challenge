@@ -1,7 +1,16 @@
+import Container from 'react-bootstrap/Container';
+import Navbar from 'react-bootstrap/Navbar';
+
 const Header = () => {
   return (
     <>
-      <h1>LOGO</h1>
+      <Navbar className="bg-body-tertiary">
+        <Container>
+          <Navbar.Brand href="#home">
+            LOGO
+          </Navbar.Brand>
+        </Container>
+      </Navbar>
     </>
   );
 };
